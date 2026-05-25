@@ -12,6 +12,10 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+    defaults:
+      run:
+        working-directory: first
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v5
@@ -21,6 +25,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
+          cache-dependency-path: first/package-lock.json
 
       - name: Install Dependencies
         run: npm install
