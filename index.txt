@@ -1,0 +1,23 @@
+React was developed to synchronize state management of js and UI DOM. In Old JS we had to manually update the DOM when the state changed, but in React we don't have to do that, it will automatically update the DOM when the state changes.
+React is a declarative library.
+JSX:- HTML IS used in JS
+components in react :- function and class 
+components are reusable
+
+props :- 
+====================
+// passing data from parent to child component :- reusing of components
+state :- 
+===================== 
+// data that is managed by the component itself :- making components dynamic and interactive
+// state is like a memory of the component
+
+hooks:- 
+===================
+functions that let you "hook into" React state and lifecycle features from function components:- Propogate change:- usestate, useeffect,usecontext,usememo,usecallback,useimperativere
+
+npx = node package executor
+npm = node package manager
+
+npx create-vite@latest
+npm run dev
