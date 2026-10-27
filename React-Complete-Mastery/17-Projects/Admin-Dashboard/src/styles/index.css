@@ -1,0 +1,15 @@
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --background: #f9fafb;
+  --text: #111827;
+  --text-muted: #4b5563;
+  --card-bg: #ffffff;
+  --border: #e5e7eb;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}

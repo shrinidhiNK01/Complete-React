@@ -1,5 +1,30 @@
-React was developed to synchronize state management of js and UI DOM. In Old JS we had to manually update the DOM when the state changed, but in React we don't have to do that, it will automatically update the DOM when the state changes.
-React is a declarative library.
+React Developer Tools  ==  download extension
+
+Bootstrap :-
+============
+go to the project folder = npm install bootstrap 
+Open src/main.jsx =  paste import 'bootstrap/dist/css/bootstrap.min.css'; 
+Test it = function App() {
+  return (
+    <button className="btn btn-primary">
+      Bootstrap Works!
+    </button>
+  );
+}
+
+export default App; 
+
+
+extensions in vs code :-
+==========================================
+thunder client :- alternative to postman :- Test api's
+es7 react 
+bracket pair colorizer
+auto rename tag
+prettier 
+
+React is a JS library developed to synchronize state management of js and UI DOM. In Old JS we had to manually update the DOM when the state changed, but in React we don't have to do that, it will automatically update the DOM when the state changes.
+React is a declarative external library.
 JSX:- HTML IS used in JS
 components in react :- function and class 
 components are reusable
@@ -19,5 +44,37 @@ functions that let you "hook into" React state and lifecycle features from funct
 npx = node package executor
 npm = node package manager
 
-npx create-vite@latest
+npx create-vite@latest = .jsx
+
+npx create-react-app@latest  = .js
 npm run dev
+
+Style:-
+===========
+style={{ width: "300px", height: "40px", borderRadius: "20px" }}
+
+
+React Concepts:-
+======================
+1)props
+2)Hooks:-
+===========
+1)useState
+
+Props :- Properties
+hooks
+==========
+Remember data (state)
+React when something changes
+Access shared data
+Optimize performance
+Interact with the browser
+
+without making a function , we will use the abilities of function thats already existed
+
+when u use bootstrap , className="ctrl+spacebar" it gives speacial affects use it 
+class❎ className✅
+for❎ htmlFor✅
+
+in className = "my-2" , means its a bootstrap that tells 2 margin in y-direction
+mx-2 = 2 margin in x-direction

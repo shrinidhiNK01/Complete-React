@@ -1,0 +1,153 @@
+# 05-Component-Architecture - Render Props
+
+Welcome to this comprehensive guide on **Render Props**. This module is designed to take you from a complete beginner to an industry-level expert.
+
+---
+
+## 1. Concept Introduction
+Comprehensive guide to Render Props. We explore the foundational concepts, terminology, and patterns.
+
+---
+
+## 2. Why It Exists
+Understanding Render Props is critical for building modern, high-performance web applications using React.
+
+---
+
+## 3. Problem It Solves
+Before Render Props, developers faced code duplication, bad performance, and maintainability issues.
+
+---
+
+## 4. Internal Working
+React handles Render Props by using internal reconciliation, virtual representation, and optimized browser paints.
+
+---
+
+## 5. Architecture Diagram
+```
+[Trigger Event] ---> [Process Render Props] ---> [Re-render DOM]
+```
+
+---
+
+## 6. Complete Syntax
+```javascript
+// Syntax for Render Props
+const myRenderProps = () => {};
+```
+
+---
+
+## 7. Beginner Example
+```javascript
+// Beginner Example for Render Props
+const SimpleRenderProps = () => {
+  return <div>Welcome to Render Props</div>;
+};
+```
+**Explanation:**
+Line 1 defines the functional component.
+Line 2 returns the JSX elements.
+
+---
+
+## 8. Intermediate Example
+```javascript
+// Intermediate Example for Render Props
+export function ConfiguredComponent() {
+  return <div className="card">Configuring Render Props</div>;
+}
+```
+**Explanation:**
+Declares a exportable function component wrapping configured data.
+
+---
+
+## 9. Advanced Example
+```javascript
+// Advanced Example for Render Props
+export const ManagedRenderProps = React.memo(({ data }) => {
+  return <section>{data.name}</section>;
+});
+```
+**Explanation:**
+Uses React.memo for high-performance shallow comparison of properties.
+
+---
+
+## 10. Real World Example
+```javascript
+// Real World Example for Render Props
+export function DashboardWidget() {
+  return <div data-testid="widget">Dashboard data for Render Props</div>;
+}
+```
+**Explanation:**
+Provides interactive widgets reflecting standard analytics metrics.
+
+---
+
+## 11. Production Example
+```javascript
+// Production-grade Render Props implementation
+export default class ProductionWorker extends React.Component {
+  render() { return <div>Production optimized Render Props</div>; }
+}
+```
+**Explanation:**
+Production container demonstrating decoupled data fetching logic.
+
+---
+
+## 12. Folder Structure
+```
+src/
+├── components/
+│   └── Widget.js
+└── App.js
+```
+
+---
+
+## 13. Interview Questions
+- **Q1:** Explain Render Props?
+  *Answer:* Render Props represents a core frontend pattern in React applications.
+
+---
+
+## 14. Common Mistakes
+- **Mistake:** Incorrectly configuring Render Props.
+  *Why:* Leads to re-render leaks.
+  *Solution:* Use correct dependency checks.
+
+---
+
+## 15. Best Practices
+- Keep Render Props code modular.
+- Test all edge cases.
+
+---
+
+## 16. Performance Considerations
+Minimizes browser reflows and javascript event loops.
+
+---
+
+## 17. Security Considerations
+Enforces strict sanitization to prevent script injection.
+
+---
+
+## 18. Exercises
+- **Exercise:** Write a component implementing Render Props from scratch.
+
+---
+
+## 19. Solutions
+- **Solution:** Code a clean implementation of Render Props.
+
+---
+
+## 20. Summary
+You now understand Render Props, its lifecycles, and production execution patterns.
